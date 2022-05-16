@@ -1,0 +1,20 @@
+.main-header{
+    background-color: #2ddf5c;
+    padding: 8px, 16px;ç
+    width: 100%;
+}
+
+li .main-nav{
+    display: inline-block;
+}
+
+
+ul .main-nav {
+    color: aqua;
+    display: inline-block;
+}
+nav .main-nav {
+
+}.main-header div {
+    display: inline-block;
+}
