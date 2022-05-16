@@ -1,17 +1,112 @@
 #flex-container {
     display: flex;
     }
-.flex-container {
+.flex-container1 {
         display: flex;
         flex-direction: column;
         background-color: red;
         /* align-items: center; */
         }
-.flex-container > div {
+.flex-container1 > div {
         background-color: blue;
         width: 50%;
         margin: 10px;
         text-align: center;
         line-height: 75px;
         font-size: 30px;
-        }        
+        }   
+.flex-container2 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        background-color: blue;
+        }
+.flex-container2 > div {
+        background-color: red;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        } 
+.container {
+        display: flex;
+        flex-flow: row wrap;
+        width: 60%;
+        margin: 10px;
+        text-align: center;
+            }
+.flex-container3 {
+        display: flex;
+        justify-content: center;
+        background-color: blue;
+            }
+.flex-container3 > div {
+        background-color: red;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+}   
+.flex-container4 {
+        display: flex;
+        height: 200px;
+        align-items: center;
+        background-color: blue;
+}
+.flex-container4 > div {
+        background-color: red;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px; }
+.flex-container {
+        display: flex;
+        height: 600px;
+        flex-wrap: wrap;
+        align-content: space-around;
+        background-color: blue;
+        }
+.flex-container > div {
+        background-color: red;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px ;
+        }
+
+.flex-container12 {
+            display: flex;
+            height: 600px;
+            flex-wrap: wrap;
+            align-content: stretch;
+            background-color: blue;
+            }
+.flex-container12 > div {
+                background-color: red;
+                width: 100px;
+                margin: 10px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px ;
+                }
+.flex-container13 {
+                    display: flex;
+                    height: 600px;
+                    flex-wrap: wrap;
+                    align-content: flex-end;
+                    background-color: blue;
+                    }                
+
+.flex-container13 > div {
+        background-color: red;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px ;
+        }
+
+        
