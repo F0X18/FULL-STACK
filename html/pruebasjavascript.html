@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pruebas javascript frontend</title>
+    <script src="C:\Users\User\Desktop\A\FULL-STACK\JS\primerjavascript.js"></script>
+    <script src="js/main2.js"></script>
+    <script src="../js/main2.js"></script>
+    <script src="/js/main2.js"></script>
+</head>
+<body>
+
+    <h1>javascript</h1>
+
+    <script>
+        alert("ventana de alerta!"); 
+        /* ventana de alerta en el navegador*/
+        document.write("Hello world! texto en el documento");
+        /*texto escrito en el documento*/
+        console.log("Hello world! texto en la consola")
+        /*texto escrito en en la consola*/
+    </script>
+
+    <p id="demo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, a! Modi, quibusdam qui illum fuga harum non quia nemo asperiores, nostrum quae quis facilis tempore voluptatum neque, saepe consequatur. Officiis.</p>
+    <button type="submit" onclick="cambia"()>clic</button>
+    <button type="submit" onclick="inicio"()>Clica de vuelta</button>
+    <script>
+        function cambia() {
+        document.getElementById("demo").innerHTML = "Párrafo cambiado";
+        }
+    </script>
+    <script>
+        function inicio() {
+        document.getElementById("demo").innerHTML = "Texto inicial"
+        }
+    </script>
+    
+</body>
+</html>
