@@ -1,0 +1,45 @@
+/*h1 {
+    word-spacing: 5px;
+    text-shadow: 5px 2px aqua;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+}
+/*h2 {
+    word-spacing: -5px;
+    text-shadow: 2px 2px chocolate;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size:  25px;
+    font-weight: lighter;
+    text-align: center;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+} */
+.middle > * {
+    vertical-align: middle;
+    }
+    .top > * {
+        vertical-align: top;
+        }
+        .bottom > * {
+        vertical-align: bottom;
+        }
+        h2 {
+        display: inline-block;
+        margin: 0;
+        width: 150px;
+        text-align: right;
+        font: bold 20px Sans-Serif;
+        }
+        div {
+        margin: 0 0 30px 0;
+        padding: 10px;
+        }
