@@ -1,11 +1,2 @@
-document.write('hello world, im Here')
-document.write('2*3')
-document.write(2*3)
-//
-//spring a numero
-let string()
-//numero a spring
-let numero('15')
-console.log(numero.toString());
-//boolean a string
-let bol('true')
+//document.getElementById("resultado2").innerHTML = "Hello world";
+document.getElementById("resultado3").innerHTML = textoAnumero + "<br>" + numeroAtexto + "<br>" + boolAtexto ;
