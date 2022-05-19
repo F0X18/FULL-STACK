@@ -56,15 +56,22 @@ const c1=1
 const c2=2
 const c3=3
 const c4=4
+if (c1%2==0){'es un numero par';document.write('es par')
+    
+} else {' no es un numero para. es impar'; document.write('es impar')
+    
+}
 
 //ejercicio 5
 
-const b1=12
-const b2=15
-const b3=20
+let x=1,y=2,z=3
 
-if (b1<b2) {'muestra el numero mas grande';document.write()
-    
-} else if (b1<b3) {'muestra el numero mas grande';document.write()
-} else if (b2<b3) {'muestra el numero mas grande'};document.write()
+if (x>=y) {'muestra el numero mas grande';document.write('x es el mayor')    
+} else if (x>=z) {'muestra el numero mas grande';document.write('x es la mayor')
+}
+else if (y>=z) {'muestra el numero mas grande';document.write('y es la mayor')
+}
+ else  {'muestra el numero mas grande'; document.write('z es la mayor')
+}
+
 //ejercicio 6
