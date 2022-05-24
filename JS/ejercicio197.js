@@ -1,12 +1,18 @@
 /* ejercicio 1 : escribe un programa que liste el nombre de las propiedades del siguiente
 objeto utilizando las dos formas comentadas con anterioridad: { name : "David Rayy",
 sclass : "VI", rollno : 12 } */
-const David= { name : "David Rayy",
-'sclass' : "VI", rollno : 12 }
-console.log(David)
-let f = { name : "David Rayy",
-'sclass' : "VI", rollno : 12 }
-console.log(f);
+const David= { 
+    name : "David Rayy",
+    sclass : "VI", 
+    rollno : 12 }
+
+    console.log(David)
+let f = { 
+    name : "David Rayy",
+    sclass : "VI", 
+    rollno : 12 }
+    
+    console.log(f);
 
 
 

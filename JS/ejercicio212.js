@@ -37,17 +37,17 @@ for (let color of colores3) {
 }
 //ejercicio 4
 
-let elementos1=["montaña","fosa","mar","rio","cielo"]
-let elementos2=["oceano","rio","fosa","prado","mar"]
-let contador1= [0]
-let repeticiones=[]
-for (const elementos1 of elementos2 )
- {
-    if (elementos1==elementos2)(contador=+1) } {
-        console.log(contador1)
-        console.log(elementos1)
-        console.log(elementos2)
-        console.log("hay " +contador1+ " elementos iguales")
+let elementos1=["montaña", "casa", "fosa", "playa", "rio"];
+let elementos2=["oceano", "rio", "playa", "prado", "mar"];
+let contador1=0;
+let repeticiones=[];
+for (let element1 of elementos1 ){
+    for (let element2 of elementos2)
+    if (element1==element2) {
+        contador1++; //contador = contador +1
+            repeticiones.push(element1);
+       
     }
-
-
+}
+console.log(`El número de repetidos es ${contador1}`);
+console.log("Hay " + contador1 + " elementos iguales entre los dos array. Estos son: " +  repeticiones);
