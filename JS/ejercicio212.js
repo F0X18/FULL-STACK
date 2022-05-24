@@ -14,10 +14,40 @@ miArray.forEach(function(item, index)   {
 })
 
 //array for of
-let 
-for (const index of item) {
+let numeros=[0,1,2,3,4,5]; 
+for (const numero of numeros) {
+    console.log(numero)
     
 }
 
-
  //ejercicio 2
+
+
+
+ let colores = ["azul","rojo","verde"]
+ for (let color of colores) {
+     console.log(color)
+     
+ }
+
+ //ejercicio 3
+let colores3=[]
+for (let color of colores3) {
+    colores3.push(color)
+}
+//ejercicio 4
+
+let elementos1=["montaña","fosa","mar","rio","cielo"]
+let elementos2=["oceano","rio","fosa","prado","mar"]
+let contador1= [0]
+let repeticiones=[]
+for (const elementos1 of elementos2 )
+ {
+    if (elementos1==elementos2)(contador=+1) } {
+        console.log(contador1)
+        console.log(elementos1)
+        console.log(elementos2)
+        console.log("hay " +contador1+ " elementos iguales")
+    }
+
+
