@@ -67,3 +67,24 @@ console.log(sumar1(1,2, callback))
 console.log(restar1(1,2, callback))
 console.log(multiplicar1(5,2, callback))
 console.log(dividir1(10,2, callback))
+
+/*Ejercicio 4: adaptar el ejercicio anterior para integrar el callback en la invocación de las
+cuatro funciones, en lugar de creándola como una función de callback por separado.
+Utilizar la herramienta de depuración de Chrome para comprobar cómo se ejecuta el
+programa.*/
+
+const sumar2 =(x,y,callback=(resultado) => {
+    console.log(resultado);
+    }) => x+y; 
+const restar2 =(x,y,callback=(resultado) => {
+    console.log(resultado);
+    }) => x-y;
+const multiplicar2 =(x,y,callback=(resultado) => {
+    console.log(resultado);
+    }) =>x*y;
+const dividir2 =(x,y,callback=(resultado) => {
+    console.log(resultado);
+    }) => x/y; 
+
+sumar2(1,4)
+restar2(8,3)
