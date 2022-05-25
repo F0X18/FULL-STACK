@@ -19,16 +19,16 @@ let h = 2;
 
 
 
-const sumar = (altura) => {
+const sumar = (a) => {
     return 5 * altura / 2;
 };
-const restar = (altura) => {
+const restar = (b) => {
 return 5 * altura / 2;
 };
-const multiplicacion = (altura) => {
+const multiplicacion = (c) => {
 return 5 * altura / 2;
 };
-const division = (altura) => {
+const division = (d) => {
 return 5 * altura / 2;
 };
   
