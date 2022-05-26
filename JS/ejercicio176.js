@@ -86,5 +86,5 @@ const dividir2 =(x,y,callback=(resultado) => {
     console.log(resultado);
     }) => x/y; 
 
-sumar2(1,4)
+sumar2(1,4,)
 restar2(8,3)
